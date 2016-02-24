@@ -1,12 +1,46 @@
-*.class
+/*Age Calculator
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+(Button)--There is a button that "clears" the results from all text fields, Date of Birth, Current age,
+	and the Gender of the Individual.--
+The User puts his Date of Birth in.
+- Declare a variable for storage.
+- The User will put in the date of their birth.
+- The data is stored and sent to the calculator.
 
-# Package Files #
-*.jar
-*.war
-*.ear
+The User puts the current date in(time  of documentation).
+- Declare a variable for storage.
+- The user will put in the current date.
+- This data is stored and sent to the calculator.
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+The User puts whether they are male or female.
+- Create a boolean exression to determine male or female.
+- Create a selection menu or buttons.
+- The results will be stored from a variable and sent to the calculator.
+
+(Button)--There is a button to "calculate" the results gathered from Date of Birth, Current Age, and 
+	the Gender of the individual.--
+The Calculator then places the age in: Years, Weeks, and Days.
+- The Calculator will grab the Date of Birth, Current Age, and Gender.
+- It will perform a calculation that will displays a conversion of date/time
+	into years, weeks, and days.
+- The Calculator will then display this data.
+
+The Calculator also places life expectancy.
+- The Calculator will also calculate life expectancy.
+- The Calculator will then display the results.
+
+(Button)--There is a button that "prints" the results to a prnter.--*/
+<script>
+var dateOfBirth = new Date (dateOfBirth);
+var ageOfInjury = new Date(ageOfInjury);
+ageOfInjury.getUTCDate();
+if (ageOfInjury > dateOfBirth) {
+	window.alert("Age of Injury cannot be greater than Date of Birth")
+	//... Add a button in the window to close the window.
+}else if{
+	(ageOfInjury < dateOfBirth)
+	{
+		//... populate the text field.
+	}
+}
+<script>
